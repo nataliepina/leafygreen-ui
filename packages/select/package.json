@@ -1,0 +1,22 @@
+{
+  "name": "@leafygreen-ui/select",
+  "version": "0.9.0",
+  "description": "leafyGreen UI Kit Select",
+  "license": "Apache-2.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "../../node_modules/.bin/webpack --config ../../webpack.config.js",
+    "ts:emit": "tsc --project ./tsconfig.json"
+  },
+  "dependencies": {
+    "@leafygreen-ui/icon": "^1.1.0",
+    "@leafygreen-ui/lib": "^3.0.0",
+    "@leafygreen-ui/palette": "^1.0.0",
+    "@leafygreen-ui/popover": "^1.1.0",
+    "downshift": "^3.2.10"
+  }
+}

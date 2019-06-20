@@ -4759,6 +4759,11 @@ component-emitter@^1.2.1:
   resolved "https://registry.yarnpkg.com/component-emitter/-/component-emitter-1.3.0.tgz#16e4070fba8ae29b679f2215853ee181ab2eabc0"
   integrity sha512-Rd3se6QB+sO1TwqZjscQrurpEPIfO0/yYnSin6Q/rD3mOutHvUrCAhJub3r90uNb+SESBuE0QYoB90YdfatsRg==
 
+compute-scroll-into-view@^1.0.9:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/compute-scroll-into-view/-/compute-scroll-into-view-1.0.11.tgz#7ff0a57f9aeda6314132d8994cce7aeca794fecf"
+  integrity sha512-uUnglJowSe0IPmWOdDtrlHXof5CTIJitfJEyITHBW6zDVOGu9Pjk5puaLM73SLcwak0L4hEjO7Td88/a6P5i7A==
+
 concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
@@ -5659,6 +5664,16 @@ dotenv@^6.0.0, dotenv@^6.2.0:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-6.2.0.tgz#941c0410535d942c8becf28d3f357dbd9d476064"
   integrity sha512-HygQCKUBSFl8wKQZBSemMywRWcEDNidvNbjGVyZu3nbZ8qq9ubiPoGLMdRDpfSrpkkm9BXYFkpKxxFX38o/76w==
+
+downshift@^3.2.10:
+  version "3.2.10"
+  resolved "https://registry.yarnpkg.com/downshift/-/downshift-3.2.10.tgz#00f8e50383199c3f07ce63b575a840e2918b7b9f"
+  integrity sha512-fEYNbV/qDLUHTxF9wALNe51Xe5zauUhy2sqgYG1CtmAfUFMI30UuSaisU8CD0DEsFSIsaEvsVgtabb6nTEhtaA==
+  dependencies:
+    "@babel/runtime" "^7.1.2"
+    compute-scroll-into-view "^1.0.9"
+    prop-types "^15.6.0"
+    react-is "^16.5.2"
 
 duplexer@^0.1.1:
   version "0.1.1"
@@ -10834,7 +10849,7 @@ react-input-autosize@^2.2.1:
   dependencies:
     prop-types "^15.5.8"
 
-react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
+react-is@^16.5.2, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
   integrity sha512-aUk3bHfZ2bRSVFFbbeVS4i+lNPZr3/WM5jT2J5omUVV1zzcs1nAaf3l51ctA5FFvCRbhrH0bdAsRRQddFJZPtA==
