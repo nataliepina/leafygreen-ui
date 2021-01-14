@@ -15,8 +15,7 @@ describe('packages/toast', () => {
       });
 
       const toast = queryByRole('status');
-      expect(toast).toBeVisible();
-      expect(toast).toBeEmptyDOMElement();
+      expect(toast).not.toBeInTheDocument();
     });
 
     test(`false, Toast doesn't render`, () => {
@@ -27,8 +26,7 @@ describe('packages/toast', () => {
       });
 
       const toast = queryByRole('status');
-      expect(toast).toBeVisible();
-      expect(toast).toBeEmptyDOMElement();
+      expect(toast).not.toBeInTheDocument();
     });
 
     test('true, Toast is visible', () => {
@@ -40,7 +38,6 @@ describe('packages/toast', () => {
 
       const toast = queryByRole('status');
       expect(toast).toBeVisible();
-      expect(toast).not.toBeEmptyDOMElement();
     });
   });
 
