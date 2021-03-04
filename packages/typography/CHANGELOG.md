@@ -1,5 +1,11 @@
 # @leafygreen-ui/typography
 
+## 7.4.0
+
+### Minor Changes
+
+- 1a42c662: Adds value to `rel` prop in Link component when href is external
+
 ## 7.3.2
 
 ### Patch Changes
